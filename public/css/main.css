@@ -9,7 +9,7 @@ body {
 	width: 100vw;
 	height: 100vh;
 	overflow: hidden;
-	background-color: #111;
+	background-color: #fff;
 }
 
 #particles-js {
@@ -24,7 +24,7 @@ body {
 main {
 	width: 450px;
 	padding: 2rem;
-	background-color: rgba(0, 0, 0, 0.438);
+	background-color: rgb(103, 147, 149);
 }
 
 header {
@@ -55,8 +55,10 @@ form {
 label {
 	display: flex;
 	flex-direction: column;
-	font-size: 0.8rem;
+	font-size: 1rem;
 	gap: 0.25rem;
+	color:rgb(60, 62, 61);
+	font-weight: bold;
 }
 
 input {
@@ -102,7 +104,7 @@ button {
 	text-align: center;
 	padding: 0.45rem 1rem;
 	font-size: 1rem;
-	background: linear-gradient(rgb(148, 12, 148), rgb(97, 7, 97));
+	background: linear-gradient(rgb(37, 148, 12), rgb(7, 97, 16));
 	max-width: 10rem;
 	min-width: 10rem;
 	align-self: center;
@@ -110,5 +112,5 @@ button {
 }
 
 button:hover {
-	background: linear-gradient(rgb(172, 24, 172), rgb(83, 17, 83));
+	background: linear-gradient(rgb(59, 172, 24), rgb(17, 83, 20));
 }
